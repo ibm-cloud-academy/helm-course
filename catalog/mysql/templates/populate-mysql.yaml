@@ -20,5 +20,6 @@ spec:
           git clone https://github.com/bluemix-enablement/helm-course;
           cd helm-course/script;
           chmod a+x *;
+          apt-get update;
           ./populateMysql.sh
       restartPolicy: Never
