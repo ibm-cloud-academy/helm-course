@@ -17,7 +17,7 @@ spec:
         command: ["/bin/bash","-c"]
         args: 
         - >
-          git clone https://github.com/bluemix-enablement/helm-course;
+          git clone https://github.com/ibm-cloud-academy/helm-course;
           cd helm-course/script;
           chmod a+x *;
           apt-get update;
